@@ -64,6 +64,8 @@ body {
     max-width: 800px;
 }
 
+
+
 nav {
     font-size: 2.5rem;
     margin: 0 auto;
@@ -104,6 +106,13 @@ h1 {
     margin-bottom: 3rem;
 }
 
+@media (max-width: 750px) {
+    .container{
+        margin-left:40px;
+        margin-right: 40px;
+    }
+}
+
 @media (max-width: 500px) {
     .container{
     flex-direction: column;
@@ -125,6 +134,13 @@ h1 {
     padding-bottom: 1rem;
     margin-bottom: 3rem;
 }
+@media (max-width: 750px) {
+    .container1{
+        margin-left:40px;
+        margin-right: 40px;
+    }
+}
+
 
 @media (max-width: 500px) {
     .container1{
